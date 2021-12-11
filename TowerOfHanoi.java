@@ -22,8 +22,6 @@ final class TowerOfHanoi {
                              final int endPeg) {
         // This function calculates where the disks should be placed in
         final int pegNumber = 6;
-        int firstAction = 1;
-        int secondAction = 2;
         if (nOfDisks == 1) {
             System.out.println("Move disk 1 from peg " + startPeg + " to peg "
                                + endPeg);
